@@ -1,6 +1,8 @@
 module k8s.io/autoscaler/cluster-autoscaler
 
-go 1.21
+go 1.21.3
+
+toolchain go1.21.6
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
@@ -25,7 +27,7 @@ require (
 	github.com/onsi/gomega v1.29.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.16.0
-	github.com/satori/go.uuid v1.2.0
+	github.com/satori/go.uuid v1.2.1-0.20181016170032-d91630c85102
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/crypto v0.14.0
