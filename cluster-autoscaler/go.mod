@@ -1,6 +1,6 @@
 module k8s.io/autoscaler/cluster-autoscaler
 
-go 1.21
+go 1.21.6
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
@@ -25,7 +25,6 @@ require (
 	github.com/onsi/gomega v1.29.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.16.0
-	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/crypto v0.14.0
@@ -263,3 +262,5 @@ replace k8s.io/dynamic-resource-allocation => k8s.io/dynamic-resource-allocation
 replace k8s.io/kms => k8s.io/kms v0.29.0-alpha.3
 
 replace k8s.io/endpointslice => k8s.io/endpointslice v0.29.0-alpha.3
+
+replace github.com/satori/go.uuid => github.com/gofrs/uuid/v5 v5.0.0

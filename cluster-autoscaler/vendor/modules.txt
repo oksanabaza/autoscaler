@@ -607,9 +607,6 @@ github.com/prometheus/procfs/internal/util
 # github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021
 ## explicit
 github.com/rubiojr/go-vhd/vhd
-# github.com/satori/go.uuid v1.2.0
-## explicit
-github.com/satori/go.uuid
 # github.com/seccomp/libseccomp-golang v0.10.0
 ## explicit; go 1.14
 github.com/seccomp/libseccomp-golang
@@ -2201,7 +2198,6 @@ sigs.k8s.io/cloud-provider-azure/pkg/azureclients
 sigs.k8s.io/cloud-provider-azure/pkg/azureclients/armclient
 sigs.k8s.io/cloud-provider-azure/pkg/azureclients/blobclient
 sigs.k8s.io/cloud-provider-azure/pkg/azureclients/containerserviceclient
-sigs.k8s.io/cloud-provider-azure/pkg/azureclients/containerserviceclient/mockcontainerserviceclient
 sigs.k8s.io/cloud-provider-azure/pkg/azureclients/deploymentclient
 sigs.k8s.io/cloud-provider-azure/pkg/azureclients/diskclient
 sigs.k8s.io/cloud-provider-azure/pkg/azureclients/diskclient/mockdiskclient
@@ -2295,3 +2291,4 @@ sigs.k8s.io/yaml
 # k8s.io/dynamic-resource-allocation => k8s.io/dynamic-resource-allocation v0.29.0-alpha.3
 # k8s.io/kms => k8s.io/kms v0.29.0-alpha.3
 # k8s.io/endpointslice => k8s.io/endpointslice v0.29.0-alpha.3
+# github.com/satori/go.uuid => github.com/gofrs/uuid/v5 v5.0.0
